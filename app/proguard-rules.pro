@@ -18,5 +18,4 @@
 
 -dontnote **
 -dontwarn **
-
 -obfuscationdictionary ConfusionDictionary.txt

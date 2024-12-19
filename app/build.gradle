@@ -54,6 +54,7 @@ android {
     }
     
     /*
+    uncomment
     kotlinOptions {
         jvmTarget = "11"
     }
