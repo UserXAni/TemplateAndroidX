@@ -1,2 +1,3 @@
+# Project Name
 rootProject.name = "MyApp"
 include(":app")

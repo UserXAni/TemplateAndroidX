@@ -43,7 +43,10 @@ android {
 			storeFile file("my.jks")
 		}
 		debug {
-			
+			keyAlias "androiddebug"
+			keyPassword "123789456"
+			storePassword "123789456"
+			storeFile file("app-debug.jks")
 		}
 	}
 	
@@ -63,6 +66,7 @@ android {
 	buildFeatures {
 		viewBinding false
         buildConfig true
+        // useAndroidx true // use this for Aide-cn
 	}
 	
 	packagingOptions {
@@ -71,13 +75,12 @@ android {
 	
 	buildTypes {
 		release {
-			shrinkResources true
-			minifyEnabled true
+			shrinkResources false
+			minifyEnabled false
 			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-			signingConfig signingConfigs.release
 		}
 		debug {
-		    
+			signingConfig signingConfigs.release
 		}
 	}
 }
@@ -91,6 +94,8 @@ dependencies {
     // implementation(libs. desugarjdklibs)
     // implementation(libs. androidxappcompat)
     // implementation(libs. materialver)
+    
+    // api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0"
     
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
