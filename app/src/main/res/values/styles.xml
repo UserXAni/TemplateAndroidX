@@ -11,11 +11,11 @@
 	</style>
 	
 	<style name="AppThemeMaterial" parent="Theme.Material3.Light.NoActionBar">
-		<item name="android:colorPrimary">@color/colorPrimary</item>
-		<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
-		<item name="android:colorAccent">@color/colorAccent</item>
-		<item name="android:colorControlHighlight">@color/colorControlHighlight</item>
-		<item name="android:colorControlNormal">@color/colorControlNormal</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="colorControlHighlight">@color/colorControlHighlight</item>
+		<item name="colorControlNormal">@color/colorControlNormal</item>
 	</style>
 	
 </resources>
