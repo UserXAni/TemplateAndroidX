@@ -94,7 +94,8 @@ dependencies {
     // implementation(libs. desugarjdklibs)
     // implementation(libs. androidxappcompat)
     // implementation(libs. materialver)
-    
+
+	// use this if you getting error in kotlin dependence 
     // api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0"
     
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
