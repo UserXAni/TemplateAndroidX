@@ -1,3 +1,30 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+/*
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        // mavenLocal()
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url "https://clojars.org/repo" }
+        maven { url 'https://maven.aliyun.com/repository/public' } 
+        maven { url 'https://repo1.maven.org/maven2' }
+        maven { url 'https://dl.bintray.com/ppartisan/maven' }
+    }
+}
+*/
+
 # Project Name
 rootProject.name = "MyApp"
 include(":app")
